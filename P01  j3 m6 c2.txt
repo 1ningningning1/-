@@ -1,0 +1,48 @@
+Number of operations for each part
+4 4 4
+---------------------
+ 
+Processing time   (0 -- non-optional machine)
+Rows: sequential for each operation of each part; Columns: correspond to machine number
+0 110 0 0 90 0 
+0 120 0 0 130 0 
+0 100 140 110 140 0 
+0 90 0 0 140 0 
+0 0 0 100 80 0 
+0 100 80 0 0 50 
+0 0 130 140 110 110 
+0 0 60 70 140 0 
+0 0 0 0 80 70 
+0 50 80 0 0 140 
+0 140 130 0 0 0 
+0 140 90 0 90 0
+---------------------
+ 
+Processing cost   (0 -- non-optional machine)
+Rows: sequential for each operation of each part; Columns: correspond to machine number
+0 15 0 0 11 0 
+0 10 0 0 13 0 
+0 18 11 13 20 0 
+0 11 0 0 20 0 
+0 0 0 12 15 0 
+0 20 15 0 0 17 
+0 0 16 20 18 16 
+0 0 18 16 10 0 
+0 0 0 0 16 18 
+0 13 11 0 0 15 
+0 20 16 0 0 0 
+0 19 15 0 20 0
+---------------------
+ 
+Distance between cells
+Rows and Columns: correspond to cell number
+0 495 
+495 0
+---------------------
+ 
+Distribution of machines in cells   (1 -- if machine m is distributed in cell u;0 -- else) 
+Rows: correspond to cell number; Columns: correspond to machine number
+1 1 1 0 0 0 
+0 0 0 1 1 1
+---------------------
+ 
